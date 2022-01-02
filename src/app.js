@@ -8,15 +8,18 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   //console.log(Math.floor(Math.random() * who.length));
-  let excuse = console.log(
+  document.getElementById("excuse").innerHTML;
+
+  let excuse =
     who[Math.floor(Math.random() * who.length)] +
-      " " +
-      action[Math.floor(Math.random() * action.length)] +
-      " " +
-      what[Math.floor(Math.random() * what.length)] +
-      " " +
-      when[Math.floor(Math.random() * when.length)]
-  );
+    " " +
+    action[Math.floor(Math.random() * action.length)] +
+    " " +
+    what[Math.floor(Math.random() * what.length)] +
+    " " +
+    when[Math.floor(Math.random() * when.length)];
+
+  console.log(excuse);
 };
 
 let who = ["The dog", "My grandma", "His turtle", "My bird"];
