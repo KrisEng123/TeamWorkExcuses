@@ -8,7 +8,6 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   //console.log(Math.floor(Math.random() * who.length));
-  document.getElementById("excuse").innerHTML;
 
   let excuse =
     who[Math.floor(Math.random() * who.length)] +
@@ -19,7 +18,7 @@ window.onload = function() {
     " " +
     when[Math.floor(Math.random() * when.length)];
 
-  console.log(excuse);
+  document.getElementById("excuse").innerHTML = excuse;
 };
 
 let who = ["The dog", "My grandma", "His turtle", "My bird"];
